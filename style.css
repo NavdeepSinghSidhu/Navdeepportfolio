@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+background-color: #fff;
+width: 434px;
+
+
+font-size: 20px;
+height: 100vh;
+border: 5px black solid;
+}
+.sidebar nav button{
+    
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'Frijole';
+    text-shadow: 2px 2px black;
+    
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 30%;
+    cursor: pointer;
+    
+    
+}
+.sidebar nav button:hover{
+    background-color:#333;
+
+
+}
+
+.sidebar nav button a{
+    text-decoration: none;
+    color:red;
+}
+
+
+
+
+.main{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+   
+}
+.infocontainer{
+    background-color:#333;
+    height:  64vh;
+    width: 80vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+    border: 5px black solid;
+   
+}
+.devpic img{
+    width:450px;
+    height: 64vh;
+    margin-right: 20px;
+    
+}
+.hello{
+font-size: 55px;
+color: #333;
+text-shadow: 3px 3px red;
+
+}
+.name{
+font-size: 50px;
+font-family: 'sans-serif';
+color: #333;
+text-shadow: 3px 3px red;
+}
+.about{
+font-size:35px ;
+margin: 10px;
+color: #333;
+text-shadow: 3px 3px red;
+}
+
+.devinfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+    font-family: 'source code pro', monospace;
+}
+.cheat{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5% ;
+      
+    font-size: large;
+    font-weight: bolder;
+    height: 600px;
+ 
+}
+
+/*resume css*/
+
+.resumebody{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;  
+}
+.resumeheader{
+    background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.resumemain{
+    max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.resumesection{
+    margin-bottom: 30px;
+
+}
+.resumeh2{
+    font-size: 24px;
+    margin-bottom: 10px;
+   
+}
+.resumeul{
+    list-style: none;
+  padding: 0;
+}
+.resumeli{
+    margin-bottom: 10px; 
+}
+.resumefooter{
+    background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.resumehome{
+    position: fixed;
+    top: 40px;
+    right: 60px;
+   
+  }
+  /*HTML CSS*/
+  .htmlbody{
+    font-family: Arial, sans-serif;
+    
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: #333;
+        margin: 0;
+        padding: 0;
+  }
+  .htmlcontainer{
+    font-weight: bolder;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color:#fff;
+    box-shadow: 0 2px 4px #333 ;
+  }
+  .htmlh1{
+    font-family: sigmar;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+   
+  }
+  .htmlh2{
+    font-family: frijole;
+    font-size: 24px;
+        margin-top: 40px;
+  }
+  .htmlcode{
+    background-color:#fff;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: Consolas, monospace;
+    
+  }
+  /*css code*/
+  .cssbody{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  .cssh1{
+    font-family: sigmar;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+
+  }
+  .cssh2{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+  }
+  .cssul{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid #333;
+
+  }
+  .cssli{
+    border: 2px solid #333;
+    font-size: x-large;
+    font-weight: bold;
+        padding: 2em;
+        text-align: center;
+        text-decoration: none;
+        margin: 20px;
+  }
+  /* js code*/
+
+.jsbody{
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color:#f2f2f2 ;
+    margin: 0;
+    padding: 0; 
+}
+.jsh1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    background: #CBD18F;
+    text-shadow: 3px 3px black;
+    
+    
+}
+.jsh2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px; 
+    margin-left: 60px;
+    font-family: 'tilt prism';
+}
+.jsul{
+    font-family: monospace;
+    
+    padding: 2px 4px;
+    border-radius: 4px; 
+}
+.jsli{
+    margin-bottom: 10px;
+    margin-left: 80px ;
+    font-size: 24px;
+    padding: 40px;
+    
+}
+/* hobbies code*/
+.hobbiesbody{
+    font-family: Arial, sans-serif;
+    background-color: #fff; 
+}
+.hobbiesh1{
+    text-align: center;
+			margin-top: 30px;
+			font-size: 50px;
+			color: #fff;
+            padding: 40px;
+            text-shadow: 3px 3px teal;
+}
+.hobbiesh2{
+    font-size: 24px;
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.hobbiescontainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hobbiesrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.hobbiescol {
+    flex: 1;
+    padding: 0 10px;
+}
+.hobbiescard {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+.hobbiescard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.hobbiescard h3 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.hobbiescard p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+.hobbiescard img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.buttonresume{
+
+    font-family: sigmar;
+    font-size: 20px;
+    cursor :pointer;
+    position: fixed;
+    top: 40px;
+    right: 60px;
+    
+    position: fixed;
+    overflow: hidden;
+}
+.buttonresume:hover{
+    color: #fff; 
+}
